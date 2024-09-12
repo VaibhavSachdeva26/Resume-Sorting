@@ -1,0 +1,60 @@
+Position: Generative AI Developer
+Location: [Specify Location]
+Experience: Minimum 10 years of overall experience, with at least 5 years of relevant experience in Generative AI
+Type: Full-time
+
+About the Role:
+We are seeking a highly skilled and experienced Generative AI Developer to join our team. The ideal candidate will have a strong background in AI and machine learning, specializing in generative models, document summarization, comparisons, and image generation. Additionally, the candidate should have practical expertise in Retrieval-Augmented Generation (RAG) implementations and deep familiarity with vector databases. This role also demands proficiency in deploying AI models and services on Azure.
+
+If you are passionate about leveraging cutting-edge AI technologies to drive innovation and possess the expertise to deliver scalable, production-level AI solutions, we want to hear from you.
+
+Key Responsibilities:
+
+Generative Model Development:
+
+Develop, fine-tune, and optimize models for document summarization, comparison, and image generation using advanced NLP and computer vision techniques.
+Implement Retrieval-Augmented Generation (RAG) solutions to enhance information retrieval and content generation.
+Vector Databases & Knowledge Management:
+
+Explore and integrate vector databases (e.g., Pinecone, FAISS, Weaviate) for efficient semantic search and large-scale data handling.
+Design systems that support vector-based document comparisons and retrieval of contextual information.
+Azure AI Services & Deployment:
+
+Utilize and implement Azure's suite of Generative AI services, such as Azure OpenAI and Cognitive Services, for developing and deploying scalable AI solutions.
+End-to-end deployment of AI applications in Azure, ensuring optimal performance, security, and scalability.
+Project Leadership & Collaboration:
+
+Lead projects involving generative models and collaborate with cross-functional teams including data engineers, cloud architects, and product managers.
+Mentor junior team members and provide technical guidance on generative AI best practices.
+AI Innovation & Research:
+
+Stay updated with the latest advancements in Generative AI, natural language processing (NLP), and computer vision.
+Continuously evaluate new tools, frameworks, and methodologies to enhance the quality and efficiency of AI systems.
+Required Skills & Qualifications:
+
+Experience:
+
+10+ years of overall professional experience in software development, with at least 5 years of hands-on experience in Generative AI and machine learning.
+Technical Expertise:
+
+Proven expertise in generative models for text summarization, document comparisons, and image generation.
+Practical experience with Retrieval-Augmented Generation (RAG).
+Proficiency with vector databases (such as Pinecone, FAISS, or Weaviate) for high-performance semantic search and storage solutions.
+Azure Proficiency:
+
+Strong experience with Azure AI services including Azure OpenAI, Azure Cognitive Services, and AI model deployment on Azure Kubernetes Service (AKS).
+Experience with end-to-end AI project deployment on Azure, including infrastructure setup, security, and scalability.
+Programming Languages & Tools:
+
+Expertise in Python, TensorFlow, PyTorch, Hugging Face Transformers, and other AI frameworks.
+Experience with version control tools (e.g., Git) and CI/CD pipelines.
+Soft Skills:
+
+Strong problem-solving and analytical thinking abilities.
+Excellent communication skills and ability to collaborate effectively with cross-functional teams.
+Leadership experience, with the ability to manage AI projects from conception to deployment.
+Preferred Qualifications:
+
+Certifications in Azure AI or Machine Learning.
+Experience with prompt engineering, large language models (LLMs), and fine-tuning transformer models.
+Familiarity with DevOps practices in Azure, including automation and monitoring of AI services.
