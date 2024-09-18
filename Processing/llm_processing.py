@@ -9,7 +9,7 @@ def get_resume_score(job_description: str, resume_texts: str):
 
     prompt_template = PromptTemplate(
         input_variables=["job_description", "resume_texts"],
-        template="Job Description:\n{job_description}\n\nI just want the name of the candidate, his skills matching with resume, certifications and rating of his/her resume in number without any explaination. all the skills should come in a string and not array and all the certifications should come in a string.  The output should be in JSON Format with just jey value pairn and keyword json should not be there. Rate the following resumes from 1 to 10 based on its relevance to the job:\n\nThe headers should be:'Name', Rating:'Skills','Certification'.'Ratings'\n\nResume:\n{resume_texts}"
+        template="Job Description:\n{job_description}\n\n I just want the name of the candidate, his skills matching with resume, relevant certifications mentioned, Relevant years of experience in the required skills mentioned in JD just in numbers and the name fo the tool/tech without any explanation, Overall years of experience just in number without any explanation and rating out of 10 basis the percentage of resume matches the job description. all the skills should come in a string and not array and all the certifications should come in a string.  The output should be in JSON Format with just key value pair. Keyword json should not be there in the response. \n\nThe headers should be:'Name', 'Skills','Certification','Relevant Experience','Overall Experience','Rating'\n\nResume:\n{resume_texts}"
     )
 
     chain = prompt_template | llm
@@ -23,4 +23,3 @@ def get_resume_score(job_description: str, resume_texts: str):
         return score
     except ValueError:
         score = 0  # Handle parsing errors and default to 0 score
-
