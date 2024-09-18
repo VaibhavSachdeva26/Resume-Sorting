@@ -19,7 +19,7 @@ if st.button("Process Resumes"):
     data = [json.loads(item) for item in table]
     df = pd.DataFrame(data)
     sorted_df = df.sort_values(by='Rating', ascending=False)
-    st.dataframe(sorted_df[['Name', 'Skills', 'Certification', 'Rating']])
+    st.dataframe(sorted_df[['Name', 'Skills', 'Certification','Relevant Experience','Overall Experience', 'Rating']])
 
 
 
