@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas as pd
+import json
 from Preprocessing.resume_processing import extract_text
 from Processing.llm_processing import get_resume_score
 
@@ -10,8 +12,16 @@ uploaded_files = st.file_uploader("Upload Resumes", accept_multiple_files=True, 
 
 if st.button("Process Resumes"):
     resume_texts = [extract_text(file) for file in uploaded_files]
+    table = []
+    for resume in resume_texts:
+       scores= get_resume_score(job_desc, resume)
+       
+       table.append(str(scores))
 
-    scores = [get_resume_score(job_desc, resume) for resume in resume_texts]
-    #sorted_resumes = sorted(zip(scores, resume_texts), reverse=True, key=lambda x: x[0])
+    data = [json.loads(item) for item in table]   
+    df = pd.DataFrame(data)
+    st.dataframe(df[['Name', 'Skills', 'Certification', 'Rating']]) 
 
-    st.write(scores)  # Display the first 500 characters
+    
+
+    
