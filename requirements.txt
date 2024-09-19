@@ -1,5 +1,5 @@
 streamlit
-pypdf
+PyPDF2
 python-docx
 sentence-transformers
 scikit-learn
@@ -7,3 +7,4 @@ langchain_community
 langchain_core
 langchain_groq
 faiss-cpu
+python-pptx
